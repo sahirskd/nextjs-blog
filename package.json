@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" next dev",
+    "start": "next start",
     "cache-posts": "node scripts/cache.js",
     "prepare": "husky install"
   },
